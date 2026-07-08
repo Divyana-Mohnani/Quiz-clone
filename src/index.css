@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Special+Elite&display=swap");
+
+:root {
+  /* Design tokens — Ketterdam dossier palette */
+  --cream: #ecdfc2;
+  --cream-dark: #ddcda3;
+  --ink: #1d1b16;
+  --crimson: #9e2a2b;
+  --brass: #b5852c;
+  --teal: #1f4b4a;
+  --paper-shadow: rgba(29, 27, 22, 0.35);
+
+  --font-display: "Bangers", cursive;
+  --font-body: "Special Elite", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--ink);
+  background-image: radial-gradient(
+      circle at 20% 20%,
+      rgba(181, 133, 44, 0.08),
+      transparent 40%
+    ),
+    radial-gradient(circle at 80% 80%, rgba(158, 42, 43, 0.1), transparent 45%);
+  font-family: var(--font-body);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--brass);
+  color: var(--ink);
+}
