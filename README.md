@@ -1,7 +1,7 @@
 # Which Crow Are You?
 
 ## Live Demo
-🔗 [[quiz-clone.vercel.app](https://your-actual-url.vercel.app)](https://quiz-clone-topaz.vercel.app/)
+🔗 https://your-actual-url.vercel.app)](https://quiz-clone-topaz.vercel.app/
 
 A **Six of Crows** character quiz built with React. Swipe through a
 Ketterdam "dossier" of seven questions, Tinder-style — swipe right to
